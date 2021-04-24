@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_min="400px"
+        app:layout_constraintHeight_min="400px"
+        android:scaleType="centerCrop"
+        android:id="@+id/gameImageView"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constrainedWidth="true"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/gameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gameTitle"
+        android:textSize="32sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constrainedWidth="true"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/gameDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gameDescription"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        app:layout_constrainedWidth="true"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/webNavigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit Game Site"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constrainedWidth="true"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
